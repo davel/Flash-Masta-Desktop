@@ -184,5 +184,10 @@ win32 {
         OS_WINDOWS
 }
 
+linux {
+    LIBS += -ldl
+    LIBS += -lusb-1.0
+}
+
 RESOURCES += \
     resources.qrc
